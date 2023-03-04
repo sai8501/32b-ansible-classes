@@ -1,0 +1,11 @@
+# Query: 
+# ContextLines: 1
+
+-
+ name:play on sample execution
+ hosts:client1
+ tasks:
+  -names:code to install git
+  yum:
+  name:git
+  state:present
