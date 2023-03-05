@@ -5,4 +5,4 @@ tasks:
  -name:code to stop service of httpd
  service:
  name:httpd
-state:stopped
+ state:stopped
