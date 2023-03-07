@@ -4,5 +4,5 @@ hosts: all
 tasks: 
  -name: code to create a directory
   command: 
-   cmd: mkdir /opt/usa
-   
+  cmd: mkdir /opt/usa
+     
