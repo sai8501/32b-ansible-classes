@@ -1,0 +1,24 @@
+- 
+name: pb on use case of file and copy module
+hosts: all
+tasks: 
+ -name: copy to create a file
+  file: 
+   path: /opt/notes.txt
+    state: touch
+
+ -names: 
+  copy: 
+   dest: /opt/notes.txt
+    content: 'HELLOW WORLD'
+
+         
+
+
+
+
+
+
+
+
+
